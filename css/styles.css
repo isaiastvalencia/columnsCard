@@ -14,29 +14,33 @@ root{
 main{
     display: flex;
 }
-.card{
-   border: 1px red solid;
-   width: 250px;
-   max-width: 250px;
-   height: 400px;
-   padding:20px;
-}
-.description{
-    color:var(--Transparent-white);
-}
-.sedans{
-    background-color: var(--Bright-orange);
-}
-.suvs{
-    background-color: var(--Dark-cyan);
-}
-.luxury{
-    background-color: var(--Very-dark-cyan);
-}
-.LearnMore{
-    text-decoration: none;
-    background-color: var(--Very-light-gray);
-    border:1px greenyellow solid;
-    padding:7px 20px;
-    border-radius: 30px;
-}
+    .card{
+    border: 1px red solid;
+    width: 250px;
+    max-width: 250px;
+    height: 400px;
+    padding:20px;
+    }
+    .sedans{
+        background-color: var(--Bright-orange);
+        color:var(--Transparent-white);
+    }
+    .suvs{
+        background-color: var(--Dark-cyan);
+        color:var(--Transparent-white);
+    }
+    .luxury{
+        background-color: var(--Very-dark-cyan);
+        color:var(--Transparent-white);
+    }
+        .description{
+            color:var(--Transparent-white);
+        }
+        .LearnMore{
+            text-decoration: none;
+            background-color: var(--Very-light-gray);
+            color: var(--Bright-orange);
+            border:1px greenyellow solid;
+            padding:7px 20px;
+            border-radius: 30px;
+        }
